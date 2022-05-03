@@ -1,0 +1,13 @@
+/home/adam/Repos/holbertonschool-csharp/0x00-csharp-hello_world/1-new_project/bin/Debug/netcoreapp3.1/1-new_project
+/home/adam/Repos/holbertonschool-csharp/0x00-csharp-hello_world/1-new_project/bin/Debug/netcoreapp3.1/1-new_project.deps.json
+/home/adam/Repos/holbertonschool-csharp/0x00-csharp-hello_world/1-new_project/bin/Debug/netcoreapp3.1/1-new_project.runtimeconfig.json
+/home/adam/Repos/holbertonschool-csharp/0x00-csharp-hello_world/1-new_project/bin/Debug/netcoreapp3.1/1-new_project.runtimeconfig.dev.json
+/home/adam/Repos/holbertonschool-csharp/0x00-csharp-hello_world/1-new_project/bin/Debug/netcoreapp3.1/1-new_project.dll
+/home/adam/Repos/holbertonschool-csharp/0x00-csharp-hello_world/1-new_project/bin/Debug/netcoreapp3.1/1-new_project.pdb
+/home/adam/Repos/holbertonschool-csharp/0x00-csharp-hello_world/1-new_project/obj/Debug/netcoreapp3.1/1-new_project.csprojAssemblyReference.cache
+/home/adam/Repos/holbertonschool-csharp/0x00-csharp-hello_world/1-new_project/obj/Debug/netcoreapp3.1/1-new_project.AssemblyInfoInputs.cache
+/home/adam/Repos/holbertonschool-csharp/0x00-csharp-hello_world/1-new_project/obj/Debug/netcoreapp3.1/1-new_project.AssemblyInfo.cs
+/home/adam/Repos/holbertonschool-csharp/0x00-csharp-hello_world/1-new_project/obj/Debug/netcoreapp3.1/1-new_project.csproj.CoreCompileInputs.cache
+/home/adam/Repos/holbertonschool-csharp/0x00-csharp-hello_world/1-new_project/obj/Debug/netcoreapp3.1/1-new_project.dll
+/home/adam/Repos/holbertonschool-csharp/0x00-csharp-hello_world/1-new_project/obj/Debug/netcoreapp3.1/1-new_project.pdb
+/home/adam/Repos/holbertonschool-csharp/0x00-csharp-hello_world/1-new_project/obj/Debug/netcoreapp3.1/1-new_project.genruntimeconfig.cache
