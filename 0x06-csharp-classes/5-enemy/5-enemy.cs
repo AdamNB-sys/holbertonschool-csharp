@@ -42,7 +42,7 @@ namespace Enemies
         ///<summary> Our own tostring method for the zombie class</summary>
         public override string ToString()
         {
-            return $"Zombie name: {_name} / Total health: {_health}";
+            return $"Zombie Name: {_name} / Total Health: {_health}";
         }
     }
 }
