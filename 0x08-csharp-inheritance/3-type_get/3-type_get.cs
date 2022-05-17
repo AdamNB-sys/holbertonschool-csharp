@@ -10,12 +10,12 @@ class Obj
     {
         string name = myObj.GetType().Name;
 
-        Console.WriteLine("{0} Properties:", name);
+        Console.WriteLine($"{name} Properties:");
         foreach (var item in myObj.GetType().GetProperties())
         {
             Console.WriteLine(item.Name);
         }
-        Console.WriteLine("{0} Methods:", name);
+        Console.WriteLine($"{name} Methods:");
         foreach (var item in myObj.GetType().GetMethods())
         {
             Console.WriteLine(item.Name);
