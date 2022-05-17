@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Reflection;
 
-
 /// <summary> Class for testing objects </summary>
 class Obj
 {
@@ -11,12 +10,12 @@ class Obj
     {
         string name = myObj.GetType().Name;
 
-        Console.WriteLine($"{name} Properties:");
+        Console.WriteLine("{0} Properties:", name);
         foreach (var item in myObj.GetType().GetProperties())
         {
             Console.WriteLine(item.Name);
         }
-        Console.WriteLine($"{name} Methods");
+        Console.WriteLine("{0} Methods", name);
         foreach (var item in myObj.GetType().GetMethods())
         {
             Console.WriteLine(item.Name);
