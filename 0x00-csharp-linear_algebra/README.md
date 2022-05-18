@@ -24,8 +24,7 @@
 * What is a determinant and how to calculate it
 * What is the inverse of a matrix and how to calculate it
 
-
-
+---
 
 ```
 Vector:
