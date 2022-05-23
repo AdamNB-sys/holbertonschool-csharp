@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 ///<summary> Class vector math adds two vectors and returns a new vector of the result </summary>
 class VectorMath
@@ -8,6 +7,7 @@ class VectorMath
     public static double[] Add(double[] vector1, double[] vector2)
     {
         double[] result = new double[1] {-1};
+
         if (vector1.Length == 2 && vector2.Length == 2)
         {
             result = new double[2] {(vector1[0] + vector2[0]), (vector1[1] + vector2[1])};
