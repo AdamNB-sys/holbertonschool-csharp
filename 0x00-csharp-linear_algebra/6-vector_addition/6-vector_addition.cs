@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 
-
 ///<summary> Class vector math adds two vectors and returns a new vector of the result </summary>
 class VectorMath
 {
