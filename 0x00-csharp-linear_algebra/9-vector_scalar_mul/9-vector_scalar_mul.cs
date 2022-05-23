@@ -1,9 +1,9 @@
 ﻿using System;
 
-///<summary> Class vector math multiplies two vectors and returns a new vector of the result.</summary>
+///<summary>Class for Vectors.</summary>
 class VectorMath
 {
-    ///<summary> Multiply takes in two vectors, adds them, and returns the new vector.</summary>
+    ///<summary>Multiplies a vector by a scalar.</summary>
     public static double[] Multiply(double[] vector, double scalar)
     {
         double[] result = new double[1] {-1};
