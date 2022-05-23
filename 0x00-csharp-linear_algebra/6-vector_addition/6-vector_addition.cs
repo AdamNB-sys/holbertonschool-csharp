@@ -1,9 +1,9 @@
 ﻿using System;
 
-///<summary> Class vector math adds two vectors and returns a new vector of the result </summary>
+///<summary> Class vector math adds two vectors and returns a new vector of the result.</summary>
 class VectorMath
 {
-    ///<summary> Add takes in two vectors, adds them, and returns the new vector </summary>
+    ///<summary> Add takes in two vectors, adds them, and returns the new vector.</summary>
     public static double[] Add(double[] vector1, double[] vector2)
     {
         double[] result = new double[1] {-1};
