@@ -9,4 +9,16 @@ class Queue<T>
     {
         return typeof(T);
     }
+
+    /// <summary> Creates nodes for queue </summary>
+    public class Node
+    {
+        public var value = null;
+        public Node next = null;
+
+        public Node(var value)
+        {
+            this.value = value;
+        }
+    }
 }
