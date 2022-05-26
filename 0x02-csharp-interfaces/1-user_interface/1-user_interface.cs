@@ -25,7 +25,7 @@ interface IBreakable
 
 interface ICollectable
 {
-    bool IsCollected { get; set; }
+    bool isCollected { get; set; }
     void Collect();
 }
 
