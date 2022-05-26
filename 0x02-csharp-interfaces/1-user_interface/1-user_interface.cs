@@ -34,17 +34,17 @@ interface ICollectable
 class TestObject : Base, IInteractive, IBreakable, ICollectable
 {
     public int durability { get; set; }
-    public bool IsCollected { get; set; }
+    public bool isCollected { get; set; }
     public void Interact()
     {
-        
+        return;
     }
     public void Break()
     {
-        
+        return;
     }
     public void Collect()
     {
-        
+        return;
     }
 }
