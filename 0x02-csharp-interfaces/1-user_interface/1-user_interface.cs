@@ -29,6 +29,8 @@ interface ICollectable
     void Collect();
 }
 
+
+/// <summary> Class test object with inheritance from the base, interactive, breakable, and collectable interfaces </summary>
 class TestObject : Base, IInteractive, IBreakable, ICollectable
 {
     public int durability { get; set; }
