@@ -48,7 +48,7 @@ class Door : Base, IInteractive
 /// <summary> Class Decoration that inherits from Base, IInteractive, and IBreakable </summary>
 class Decoration : Base, IInteractive, IBreakable
 {
-    public int durability {get; set; }
+    public int durability { get; set; }
     public bool isQuestItem { get; set; }
 
     public Decoration(string name = "Decoration", int durability = 1, bool isQuestItem = false)
