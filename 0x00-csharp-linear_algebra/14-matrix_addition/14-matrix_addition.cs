@@ -19,7 +19,8 @@ class MatrixMath
         }
         else
         {
-            matrixResult = new double[,]{{-1}};
+            matrixResult = new double[1, 1]{{-1}};
+            return matrixResult;
         }
 
         for (int i = 0; i < matrix1.GetLength(0); i++)
