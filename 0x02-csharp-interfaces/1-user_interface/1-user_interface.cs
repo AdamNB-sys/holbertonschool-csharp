@@ -5,7 +5,7 @@
 public abstract class Base
 {
     /// <summary> string name is name of base </summary>
-    public string name = "";
+    public string name { get; set; }
 
     /// <summary> ToString method: name + is a + basedotGetType </summary>
     public override string ToString()
@@ -39,7 +39,6 @@ public class TestObject : Base, IInteractive, IBreakable, ICollectable
 {
     public int durability { get; set; }
     public bool isCollected { get; set; }
-    public string name { get; set; }
 
     public void Interact()
     {
