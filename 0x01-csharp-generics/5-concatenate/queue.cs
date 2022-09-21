@@ -111,7 +111,9 @@ class Queue<T>
             String cat = "";
             while (iterator != null)
             {
-                cat += iterator.value + " ";
+                cat += iterator.value;
+                if (typeof(T) == typeof(String))
+                    cat += " ";
                 iterator = iterator.next;
             }
             return cat;
