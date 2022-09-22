@@ -81,16 +81,16 @@ public class Decoration : Base, IInteractive, IBreakable
     {
         if (durability <= 0)
             Console.WriteLine($"The {name} has been broken.");
-        if (isQuestItem)
+        else if (isQuestItem == true)
             Console.WriteLine($"You look at the {name}. There's a key inside.");
-        else
+        else //(isQuestItem == false)
             Console.WriteLine($"You look at the {name}. Not much to see here.");
     }
 
     /// <summary> Implementation of durability, returns information about durability of object </summary>
     public void Break()
     {
-        durability -= 1;
+        durability--;
         if (durability > 0)
             Console.WriteLine($"You hit the {name}. It cracks.");
         else if (durability == 0)
