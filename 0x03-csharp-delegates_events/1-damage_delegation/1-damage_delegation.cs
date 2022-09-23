@@ -40,7 +40,7 @@ public class Player
     /// <summary> Method to calculte damage </summary>
     public void TakeDamage(float damage)
     {
-        if (damage < 1)
+        if (damage <= 0)
         {
             Console.WriteLine($"{this.name} takes 0 damage!");
         }
